@@ -45,7 +45,7 @@ background-color: hsl(244, 38%, 16%);
     padding: 0.5rem 0;
 }
 
-@media (max-width: 375px){
+@media (max-width: 480px){
     .container{
         display: flex;
         flex-direction: column-reverse;
