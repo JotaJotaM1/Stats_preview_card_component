@@ -1,94 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-body{
-font-family: 'Inter', sans-serif;
-background-color: hsl(233, 47%, 7%);
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233, 47%, 7%);
 }
-.container{
-display: flex;
-margin: 5rem 10%;
-color: white;
-
+.container {
+  display: flex;
+  margin: 5rem 10%;
+  color: white;
 }
-span{
-    color:hsl(277, 64%, 61%);
+span {
+  color: hsl(277, 64%, 61%);
 }
-.containerdos{  
-width: 50%;
-background-color: hsl(244, 38%, 16%);
-padding: 5% 6%;
-border-top-left-radius: 1rem;
-border-bottom-left-radius: 1rem;
+.containerdos {
+  width: 50%;
+  background-color: hsl(244, 38%, 16%);
+  padding: 5% 6%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
-.textdos{
-font-size: 15px;
-}
-
-.imagen{
-width: 50%;
-border-top-right-radius: 1rem;
-border-bottom-right-radius: 1rem;
+.textdos {
+  font-size: 15px;
 }
 
-.containertres{
-display: flex;
-margin: 2rem 0 0 0;
-background-color: hsl(244, 38%, 16%);
+.imagen {
+  width: 50%;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
-.dos{
-    margin: 0 2rem 0 0;
-}
-.text{
-    margin: 0 2rem 0 0;
-    font-size: 10px;
-    padding: 0.5rem 0;
+.containertres {
+  display: flex;
+  margin: 2rem 0 0 0;
+  background-color: hsl(244, 38%, 16%);
 }
 
-@media (max-width: 480px){
-    .container{
-        display: flex;
-        flex-direction: column-reverse;
-        margin: 4rem 5%;
-        
-        
-    }
-    .containerdos{
-        width: 100%;
-        padding: 0%;
-        text-align: center;
-        border-bottom-right-radius: 1rem;
-        border-bottom-left-radius: 1rem;
-        border-top-left-radius: 0;
-    }
-    h1{
-        margin: 2rem 0;
-    }
-    .textdos{
-        margin:0.5rem 0.5rem;
-        line-height: 25px;
-        color:hsla(0, 0%, 100%, 0.75);
-    }
-    .text{
-        color:hsla(0, 0%, 100%, 0.75);
-        margin: auto;
-    }
-    .dos{
-        margin: auto;
-    }
-    .containertres{
-        display: flex;
-        flex-direction: column-reverse;
-        border-bottom-right-radius: 1rem;
-        border-bottom-left-radius: 1rem;
-        
-       
-    }
-    .imagen{
-        width: 100%;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-        border-bottom-right-radius: 0;
-    }
+.dos {
+  margin: 0 2rem 0 0;
+}
+.text {
+  margin: 0 2rem 0 0;
+  font-size: 10px;
+  padding: 0.5rem 0;
+}
 
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 4rem 5%;
+  }
+  .containerdos {
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 0;
+  }
+  h1 {
+    margin: 2rem 0;
+  }
+  .textdos {
+    margin: 0.5rem 0.5rem;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  .text {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: auto;
+  }
+  .dos {
+    margin: auto;
+  }
+  .containertres {
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .imagen {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 0;
+  }
 }
